@@ -11,4 +11,4 @@ looking at the repo and the code so this should shed some light on the matter.
 ```
 
 ## How to start it up
-Spin up a REPL and run ```(reset)```. It will spin up a web server on port 8080.
+Spin up a REPL and run ```(user/reset)```. It will start up a web server on port 8080.
