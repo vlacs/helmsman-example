@@ -1,48 +1,14 @@
 # helmsman-example
 
-TODO: Brief description
+This application is an example of how Helmsman can be used to drive your web
+application(s). It's not immediately obvious how Helmsman should be used just by
+looking at the repo and the code so this should shed some light on the matter.
 
 
+## Leiningen dependancy string
+```clojure
+[helmsman-example "0.1.0-SNAPSHOT"]
+```
 
-## Releases and Dependency Information
-
-* Releases are published to TODO_LINK
-
-* Latest stable release is TODO_LINK
-
-* All released versions TODO_LINK
-
-[Leiningen] dependency information:
-
-    [helmsman-example "0.1.0-SNAPSHOT"]
-
-[Maven] dependency information:
-
-    <dependency>
-      <groupId>helmsman-example</groupId>
-      <artifactId>helmsman-example</artifactId>
-      <version>0.1.0-SNAPSHOT</version>
-    </dependency>
-
-[Leiningen]: http://leiningen.org/
-[Maven]: http://maven.apache.org/
-
-
-
-## Usage
-
-TODO
-
-
-
-## Change Log
-
-* Version 0.1.0-SNAPSHOT
-
-
-
-## Copyright and License
-
-Copyright © 2014 TODO_INSERT_NAME
-
-TODO: [Choose a license](http://choosealicense.com/)
+## How to start it up
+Spin up a REPL and run ```(reset)```. It will spin up a web server on port 8080.
